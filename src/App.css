@@ -33,7 +33,7 @@ body{
   position:relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: sans-serif !important;
+  font-family: 'Centra', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -60,7 +60,7 @@ nav.navbar a.navbar-brand{
   width: 9%;
 }
 
-navbar .navbar-nav .nav-link.navbar-link{
+nav.navbar .navbar-nav .nav-link.navbar-link{
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
@@ -69,8 +69,8 @@ navbar .navbar-nav .nav-link.navbar-link{
   opacity: 0.75;
 }
 
-nav.navbar .navbar-nav a.nav-link.navbar:hover,
-nav.navbar .navbar-nav a.nav-link.navbar.active{
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active{
   opacity: 1;
 }
 
