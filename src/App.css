@@ -267,8 +267,8 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
@@ -285,6 +285,35 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
+/* About Section */
+
+.about {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.about-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin: -60px;
+}
+
+.about h2{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.about p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
 
 
 
