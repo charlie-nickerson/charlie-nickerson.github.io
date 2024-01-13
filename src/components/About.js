@@ -1,8 +1,22 @@
 import Image from "../assets/headshot__square.jpg"
-import background from "../assets/Image.png"
+import React, { useState, useTransition } from 'react';
+import TabButton from "./TabButton";
+import { Tab } from "react-bootstrap";
+
+
 
 
 export const About = () => {
+
+    const [tab, setTab] = useState('skills')
+    const [isPending, startTransition] = useTransition()
+
+    const handleTabChange = (id) => {
+        startTransition(() => {
+            setTab(id)
+        })
+    }
+
     return(
         <section className="about" id="about">
             <div className="container">
@@ -17,9 +31,9 @@ export const About = () => {
                                 Let's connect and explore how we can drive positive change together
                             </p>
                             <div className="tab-bar">
-                                <span className="skill-tab">Skills</span>
-                                <span className="education-tab">Education</span>
-                                <span className="experience-tab">Experience</span>
+                                <TabButton selectTab={() => handleTabChange("skills")} active ={tab==="skills"}>{" "}Skills{" "}</TabButton>
+                                <TabButton selectTab={() => handleTabChange("education")} active ={tab==="education"}>{" "}Education{" "}</TabButton>
+                                <TabButton selectTab={() => handleTabChange("experience")} active ={tab==="experience"}>{" "}Experience{" "}</TabButton>
                             </div>
                         </div>
             </div>

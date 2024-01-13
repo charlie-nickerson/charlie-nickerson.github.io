@@ -226,7 +226,7 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
+  padding: 8px 10px;;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
@@ -249,6 +249,7 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
 }
 .banner button {
+  background-color: transparent;
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -357,39 +358,10 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-.about .col-12 {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-
-.about .skill-tab{
-  margin-right: 3px;
-  font-weight: 600;
-  color: #ADB7BE;
-}
-
-.about .skill-tab:hover{
-  color: #fff;
-}
-
-.about .education-tab{
-  margin-right: 3px;
-  font-weight: 600;
-  color: #ADB7BE;
-}
-
-.about .education-tab:hover{
-  color: #fff;
-}
-
-.about .experience-tab{
-  margin-right: 3px;
-  font-weight: 600;
-  color: #ADB7BE;
-}
-
-.about .experience-tab:hover{
-  color: #fff;
+.about .tab-bar{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
 }
 
 .about .container .head-shot{
@@ -398,7 +370,19 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px;
 }
 
-.a
+/* Tab Button */
+/* .about .container .tab-bar span{
+  margin-right: 0.75rem;
+  font-weight: 600;
+} */
+
+/* .about .container .tab-bar span:active{
+  color:#61dafb;
+  margin-right: 0.75rem;
+  font-weight: 600;
+  border-bottom-width: 1px; 
+  border-color: rgb(168 85 247);
+} */
 
 
 .App {
