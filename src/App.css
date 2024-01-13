@@ -304,11 +304,11 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about .container {
   gap: 2rem;
   align-items: center;
+  text-align: left;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 1rem;
-  padding-right: 1rem;
-  
+  padding-right: 1rem;  
 }
 
 @media (min-width: 768px){
@@ -342,11 +342,10 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   color: #fff;
   margin-bottom: 1rem;
-
-
 }
 
 .about p {
+
   font-size: 1rem;
   line-height: 1.5rem;
 }

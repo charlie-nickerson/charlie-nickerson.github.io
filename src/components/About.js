@@ -9,9 +9,9 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-            <ul>
+            <ul className="list-disc pl-2">
                 <li>Python</li>
-                <il>C/C++</il>
+                <li>C/C++</li>
                 <li>Javascript</li>
                 <li>CSS</li>
                 <li>React</li>
@@ -23,7 +23,7 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-            <ul>
+            <ul className="list-disc pl-2">
                 <li>Washington State University</li>
                 <li>Bachelor of Science in Computer Science</li>
                 <li>Minor in Mathematics</li>
@@ -35,7 +35,7 @@ const TAB_DATA = [
         title: "Experience",
         id: "experience",
         content: (
-            <ul>
+            <ul className="list-disc pl-2">
                 <li>Machine Learning Developer at the WSU Department of Neuropsychology</li>
                 <li>4 Years Experience in Python</li>
                 <li>3 years expereince in C/C++</li>
@@ -73,7 +73,7 @@ export const About = () => {
                                 <TabButton selectTab={() => handleTabChange("education")} active ={tab==="education"}>{" "}Education{" "}</TabButton>
                                 <TabButton selectTab={() => handleTabChange("experience")} active ={tab==="experience"}>{" "}Experience{" "}</TabButton>
                             </div>
-                            <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
+                            <div className="text-left">{TAB_DATA.find((t) => t.id === tab).content}</div>
                         </div>
             </div>
         </section>
