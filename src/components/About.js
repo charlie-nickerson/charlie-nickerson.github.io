@@ -1,11 +1,49 @@
 import Image from "../assets/headshot__square.jpg"
 import React, { useState, useTransition } from 'react';
 import TabButton from "./TabButton";
-import { Tab } from "react-bootstrap";
 
 
 
-
+const TAB_DATA = [
+    {
+        title: "Skills",
+        id: "skills",
+        content: (
+            <ul>
+                <li>Python</li>
+                <il>C/C++</il>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>Haskell</li>
+            </ul>
+        ),
+    },
+    {
+        title: "Education",
+        id: "education",
+        content: (
+            <ul>
+                <li>Washington State University</li>
+                <li>Bachelor of Science in Computer Science</li>
+                <li>Minor in Mathematics</li>
+                <li>Graduated May 2023</li>
+            </ul>
+        ),
+    },
+    {
+        title: "Experience",
+        id: "experience",
+        content: (
+            <ul>
+                <li>Machine Learning Developer at the WSU Department of Neuropsychology</li>
+                <li>4 Years Experience in Python</li>
+                <li>3 years expereince in C/C++</li>
+                <li>Coded this website in React</li>
+            </ul>
+        ),
+    },
+]
 export const About = () => {
 
     const [tab, setTab] = useState('skills')
@@ -35,6 +73,7 @@ export const About = () => {
                                 <TabButton selectTab={() => handleTabChange("education")} active ={tab==="education"}>{" "}Education{" "}</TabButton>
                                 <TabButton selectTab={() => handleTabChange("experience")} active ={tab==="experience"}>{" "}Experience{" "}</TabButton>
                             </div>
+                            <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
                         </div>
             </div>
         </section>
