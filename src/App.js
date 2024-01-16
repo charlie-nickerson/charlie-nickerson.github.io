@@ -4,6 +4,7 @@ import { NavBar } from './components/NavBar.js';
 import { Banner } from './components/Banner.js';
 import { About } from './components/About.js';
 import { Projects } from './components/Projects.js';
+import { Contact } from './components/Contact.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <About />
       <Projects />
+      <Contact />
 
     </div>
   );
