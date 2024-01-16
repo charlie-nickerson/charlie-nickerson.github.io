@@ -217,12 +217,20 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 260px 0 170px 0;
   background-image: url('./assets/Image.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media (min-width: 2560px){
+  .banner {
+    padding-bottom: 530px;
+  }
+}
+
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -368,21 +376,6 @@ nav.navbar .nav-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height:500px;
   border-radius: 10px;
 }
-
-/* Tab Button */
-/* .about .container .tab-bar span{
-  margin-right: 0.75rem;
-  font-weight: 600;
-} */
-
-/* .about .container .tab-bar span:active{
-  color:#61dafb;
-  margin-right: 0.75rem;
-  font-weight: 600;
-  border-bottom-width: 1px; 
-  border-color: rgb(168 85 247);
-} */
-
 
 .App {
   text-align: center;
