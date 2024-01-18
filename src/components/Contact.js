@@ -1,8 +1,24 @@
 import React from 'react'
 import GithubIcon from '../assets/github-icon.svg'
 import LinkedinIcon from '../assets/linkedin-icon.svg'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 export const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_0dor6jx', 'template_4gyx4ys', form.current, 'zMejonUEYV_qxdd7l')
+        .then((result) => {
+            console.log(result.text);
+            console.log("email sent")
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
   return (
     <section id="contact" className="pl-96 pr-96 grid md:grid-cols-2 my-12 md:my12 py-24 gap-4">
         <div>
@@ -20,9 +36,14 @@ export const Contact = () => {
             </div>
         </div>
         <div>
-            <form className='text-left flex flex-col gap-4'>
-                <label htmlFor="email" type="email" className="text-white">Your Email</label>
-                <input type="email" id="email" className="text-black pl-1" required placehoolder="charliework@gmail.com"></input>
+            <form className='text-left flex flex-col gap-4' ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input className="text-black pl-1" type="text" name="user_name" />
+                <label>Email</label>
+                <input className="text-black pl-1" type="email" name="user_email" />
+                <label>Message</label>
+                <textarea className="text-black pl-1" name="message" />
+                <input  type="submit" value="Send" />
             </form>
         </div>
     </section>
