@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { Container, Row, Col} from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
+import { Nav } from "react-bootstrap"
+
 import bannerImg from "../assets/circle_1.png"
 
 export const Banner = () => {
@@ -10,6 +12,26 @@ export const Banner = () => {
     const [text, setText] = useState('')
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const period = 2000
+    const [activeLink, setActiveLink] = useState('home')
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const onScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        }
+    
+        window.addEventListener('scroll', onScroll);
+
+        return () => window.removeEventListener("scroll", onScroll);
+    }, [])
+
+    const onUpdateActiveLink = (value) => {
+        setActiveLink(value);
+    }
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -49,7 +71,9 @@ export const Banner = () => {
                         <span className="tagline">Welcome To My Portfolio</span>
                         <h1>{`Hi I'm Charlie a `}<span className="wrap">{text}</span></h1>
                         <p>I am a web developer based in Seattle Washington. I have a passion for data science and love to create and learn about all aspects in computer science.</p>
-                        <button onClick= {() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                        <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('contact')}>
+                            <button onClick= {() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                        </Nav.Link>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={bannerImg} alt="Banner Image" />

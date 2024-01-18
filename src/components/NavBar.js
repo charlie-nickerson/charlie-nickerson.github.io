@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import logo from '../assets/UserCircle.svg';
 import navIcon1 from '../assets/nav-icon1.svg';
-import navIcon2 from '../assets/nav-icon2.svg';
-import navIcon3 from '../assets/Github=White.png';
+import navIcon3 from '../assets/iconic.png';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -45,10 +44,14 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className='social-icon'>
-                        <a href="https://www.linkedin.com/in/charlie-nickerson-5480321ba/"><img src={navIcon1} alt="" /></a>
-                        <a href="https://github.com/charlie-nickerson"><img src={navIcon3} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/charlie-nickerson-5480321ba/"><img className="icon1" src={navIcon1} alt="" /></a>
                     </div>
-                    <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                    <div className='social-icon'>
+                        <a href="https://github.com/charlie-nickerson"><img src={navIcon3} className="icon2" alt="" /></a>
+                    </div>
+                    <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('contact')}>
+                        <button href="contact" className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                    </Nav.Link>
                 </span>
             </Navbar.Collapse>
         </Container>

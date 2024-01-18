@@ -113,8 +113,18 @@ span.navbar-text{
 }
 
 .social-icon a img{
-  width:40%;
+  transition: 0.3s ease-in-out;
   z-index: 1;
+}
+
+.social-icon a .icon1{
+  width:40%;
+  
+}
+
+.social-icon a .icon2{
+  height: 90%;
+  width:auto;
   transition: 0.3s ease-in-out;
 }
 
