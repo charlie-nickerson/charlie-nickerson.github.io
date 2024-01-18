@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-website-v2/static/css/main.addcb6b0.css",
+    "main.js": "/react-website-v2/static/js/main.588f070a.js",
+    "static/js/787.ea91f5f2.chunk.js": "/react-website-v2/static/js/787.ea91f5f2.chunk.js",
+    "static/media/Image.png": "/react-website-v2/static/media/Image.28fe1d9a5e964493b4ae.png",
+    "static/media/circle_1.png": "/react-website-v2/static/media/circle_1.42ff4c0eaeab28bb5d36.png",
+    "static/media/headshot__square.jpg": "/react-website-v2/static/media/headshot__square.aa6cd593a2f0b72ff450.jpg",
+    "static/media/brainrodent.jpg": "/react-website-v2/static/media/brainrodent.a7841f74827bd384ac32.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/react-website-v2/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/react-website-v2/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/react-website-v2/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/robotmusic.jpg": "/react-website-v2/static/media/robotmusic.d016479eb31567eaa910.jpg",
+    "static/media/reactthumnail.jpg": "/react-website-v2/static/media/reactthumnail.a9c291305ca4bfaa26dc.jpg",
+    "static/media/github-icon.svg": "/react-website-v2/static/media/github-icon.f7d613661359deff4feebc1f0553ceb4.svg",
+    "static/media/UserCircle.svg": "/react-website-v2/static/media/UserCircle.9a66fcbbefcea2a5b3e1a68800cc9616.svg",
+    "index.html": "/react-website-v2/index.html",
+    "static/media/nav-icon1.svg": "/react-website-v2/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/linkedin-icon.svg": "/react-website-v2/static/media/linkedin-icon.f3ecbf496e9eae53ec1ba7a1b0271e60.svg",
+    "main.addcb6b0.css.map": "/react-website-v2/static/css/main.addcb6b0.css.map",
+    "main.588f070a.js.map": "/react-website-v2/static/js/main.588f070a.js.map",
+    "787.ea91f5f2.chunk.js.map": "/react-website-v2/static/js/787.ea91f5f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.addcb6b0.css",
+    "static/js/main.588f070a.js"
+  ]
+}
