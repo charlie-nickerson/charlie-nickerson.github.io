@@ -1,23 +1,19 @@
-# [Charlie Nickerson]'s Portfolio Website
+# Charlie Nickerson's Portfolio Website
 
 Welcome to my personal portfolio website! This repository contains the source code and assets for my portfolio website, where you can learn more about me, my skills, and my projects.
 
 ## Table of Contents
 - [About](#about)
-- [Projects](#projects)
 - [Skills](#skills)
 - [Contact](#contact)
 - [Getting Started](#getting-started)
-- [License](#license)
 
 ## About
-In this section, briefly introduce yourself. Explain your background, career goals, and what makes you unique as a professional. Share your passion for technology or your chosen field.
 
 Welcome! my name is Charlie Nickerson. I am a recent graduate of Washington State University. In order to make myself stand out more in my job applications I decided to create my own portfolio website
 to my professional work while also demonstrating my ability to create my very own full stack project all on my own.
 
 ## Skills
-Highlight your key skills and expertise. Mention the programming languages, tools, and technologies you are proficient in. You can use bullet points or a simple list.
 
 - Web Development (HTML, CSS, JavaScript, Typescript)
 - Framework (React, Tailwind)
