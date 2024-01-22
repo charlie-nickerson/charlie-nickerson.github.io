@@ -11,7 +11,7 @@ Welcome to my personal portfolio website! This repository contains the source co
 ## About
 
 Welcome! my name is Charlie Nickerson. I am a recent graduate of Washington State University. In order to make myself stand out more in my job applications I decided to create my own portfolio website
-to my professional work while also demonstrating my ability to create my very own full stack project all on my own.
+to showcase my professional work while also demonstrating my ability to create my very own full stack project all on my own.
 
 ## Skills
 
