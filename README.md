@@ -1,10 +1,39 @@
-# Getting Started with Create React App
+# [Charlie Nickerson]'s Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This repository contains the source code and assets for my portfolio website, where you can learn more about me, my skills, and my projects.
 
-## Available Scripts
+## Table of Contents
+- [About](#about)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Contact](#contact)
+- [Getting Started](#getting-started)
+- [License](#license)
 
-In the project directory, you can run:
+## About
+In this section, briefly introduce yourself. Explain your background, career goals, and what makes you unique as a professional. Share your passion for technology or your chosen field.
+
+Welcome! my name is Charlie Nickerson. I am a recent graduate of Washington State University. In order to make myself stand out more in my job applications I decided to create my own portfolio website
+to my professional work while also demonstrating my ability to create my very own full stack project all on my own.
+
+## Skills
+Highlight your key skills and expertise. Mention the programming languages, tools, and technologies you are proficient in. You can use bullet points or a simple list.
+
+- Web Development (HTML, CSS, JavaScript, Typescript)
+- Framework (React, Tailwind)
+
+## Contact
+- [LinkedIn](https://www.linkedin.com/in/charlie-nickerson-5480321ba/)
+- [GitHub](https://github.com/charlie-nickerson)
+- [Portfolio](https://charlie-nickerson.github.io/react-website-v2/)
+- Email: charliework755@gmail.com
+
+## Getting Started
+If you want to run this website locally or explore the source code, follow these instructions:
+
+1. Clone this repository:
+
+2. In the project directory, you can run:
 
 ### `npm start`
 
@@ -39,32 +68,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
