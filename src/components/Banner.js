@@ -70,7 +70,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome To My Portfolio</span>
                         <h1>{`Hi I'm Charlie a `}<span className="wrap">{text}</span></h1>
-                        <p>I am a web developer based in Seattle Washington. I have a passion for data science and love to create and learn about all aspects in computer science.</p>
+                        <p>I am a software engineer based in Seattle Washington. I have a passion for data science and love to create and learn about all aspects in computer science.</p>
                         <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('contact')}>
                             <button onClick= {() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
                         </Nav.Link>
