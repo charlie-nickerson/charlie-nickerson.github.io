@@ -1,7 +1,7 @@
 {
   "name": "react-website-v2",
   "version": "0.1.0",
-  "homepage": "https://charlie-nickerson.github.io/react-website-v2/",
+  "homepage": "https://charlie-nickerson.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
